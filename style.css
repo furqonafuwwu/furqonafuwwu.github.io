@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+
+*{
+    font-family: 'Roboto';
+}
+
+/* ini adalah cara change all font pada aplikasi*/
+
+        
+        
+    /*Call with ID (using hashtag for calling)*/    
+     #ayamgeprek {
+        color: rgb(0, 0, 0);
+     }
+    
+    /*Call with class (using "." for calling)*/
+     .desk {
+        color: cadetblue;
+     }
+    /*Call with elemen/tag (using name of elemen for calling)*/
+    /*padding (Inside of element)
+      Margin (Outside of element)
+      Used for distance from object and side element*/
+     .bahan {
+        background-color: rgb(201, 210, 212);
+        padding-top: 5px;
+        padding-left: 15px;
+        margin-top: 50px;
+     }
+
+table 
+
+.right{
+    background-color: beige;
+    text-align: right;
+}
+
+.left{
+    background-color: beige;
+    text-align: left;
+}
+
+/*1 by 1 of table coloring cursor*/
+
+td:hover{
+    background-color: rgb(49, 151, 151);
+    transition: 0.2s linear;
+}
+
+/* 1 table coloring cursor
+table tr:hover {
+    background-color: chocolate;
+    transition: 0.4s linear; /* Untuk transisi saat cursor touching the
+}*/
+
+.btnlogin{
+    padding: 10px 20px;
+    border-color: rgb(0, 0, 0);
+    background-color: #fff;
+}
+
+.btnsignin{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0,2 ease;
+    margin-top: 40px;
+    transition: 0.2s linear;
+}
+
+.btnlogin:hover{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0,2 ease;
+    margin-top: 40px;
+    transition: 0.2s linear;
+}
+
+button:active{
+    transform: scale(0.96);
+}

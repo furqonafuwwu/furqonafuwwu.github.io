@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tag input di html</title>
+</head>
+<body>
+
+    <h1>Form Input</h1>
+
+    <form>
+        <label>Nama Lengkap</label> <br>
+        <input type="text" name="name">
+        <br><br>
+
+        <label>Email</label> <br>
+        <input type="email" name="Email">
+        <br><br>
+
+        <!--  -->
+        <label>Tanggal Lahir</label> <br>
+        <input type="date" name="tgl_lahir">
+        <br><br>
+
+        <label>Jam</label> <br>
+        <input type="jam" name="jam">
+        <br><br>
+
+        <!-- Radio hanya bisa pilih satu -->
+        <label>Golongan Darah</label> <br>
+        <input type="radio" name="Darah" value="A">
+        <label>A</label> <br>
+        <input type="radio" name="Darah" value="B">
+        <label>B</label> <br>
+        <input type="radio" name="Darah" value="AB">
+        <label>AB</label> <br>
+        <input type="radio" name="Darah" value="D">
+        <label>D</label>
+        <br><br>
+
+        <!--  -->
+        <label>Gender :</label> <br>
+        <select name="Gender">
+            <option value="">-- pilih --"</option>
+            <option value="L">-- Laki laki --</option>
+            <option value="P">-- Perempuan --"</option>
+        </select>
+        <br><br>
+
+        <!-- Checkbox Bisa milih lebih dari satu -->
+        <label>Hobi</label> <br>
+        <input type="checkbox" name="Hobi1" value="Membaca">
+        <label>Membaca</label> <br>
+        <input type="checkbox" name="Hobi2" value="Olahraga">
+        <label>Olahraga</label> <br>
+        <input type="checkbox" name="Hobi3" value="Memasak">
+        <label>Memasak</label> <br>
+        <input type="checkbox" name="Hobi4" value="Ngoding">
+        <label>Ngoding</label>
+        <br><br>
+
+        <label>Warna kesukaan</label> <br>
+        <input type="color" name="color">
+        <br><br>
+
+        <label>Foto</label> <br>
+        <input type="foto" name="Foto">
+        <br><br>
+
+        <label>Seberapa Greget</label> <br>
+        <input type="range" name="Greget" min="0" max="10">
+        <br><br>
+
+        <label>Telepon : (format : 0821-9117-8349)</label> <br>
+        <input type="tel" name="Telepon" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
+        <br><br>
+
+        <input type="button" onclick="showAlert(', Im Jarvis');" value="show me">
+        
+        <!-- <input type="submit" value="Simpan data"> -->
+        <button type="submit">Simpan data</button>
+        <button type="reset">Wipe</button>
+    </form>
+    
+</body>
+
+<script type="text/javascript">
+    function showAlert(name) {
+        return alert("Halo" + name)
+    }
+</script>
+
+</html>
