@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: burlywood;
+}
+
+body .form-login{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+body .form-login h3{
+    text-align: center;
+}
+
+body .form-login input{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #E5E9F2;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+body .form-login p{
+    text-align: right;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+body .form-login p a{
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+body .form-login p a :hover{
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+    /* text-decoration: underline; */
+}
+
+
+body .form-login .btn-login{
+    margin-top: 0px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    background-repeat: 50px;
+    background-color: #2447f9;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .btn-create{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    background-repeat: 50px;
+    background-color: #E5E9F2;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .garis{
+    background-color: darkslategray;
+    color: darkslategray;
+    margin-top: 25px;
+}
+
+body .form-login .btn-daftar{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    background-color: #2d2d30;
+    color: #fff;
+    padding-left: 35px;
+    font-weight: 50;
+    border-radius: 10px;
+    font-weight: 50;
+    cursor: pointer;    
+}
+
+body .form-login .icon-google{
+    top: 50%;
+    right: 500px;
+    transform: translate(-50%);
+    width: 20px;
+    height: 20px;
+}
